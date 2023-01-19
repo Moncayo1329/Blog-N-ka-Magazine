@@ -1,8 +1,9 @@
-   
-function HomePage() {
+
+
+export default function HomePage() {
    return  <div>
     <header>
-        <title>Núnka</title>
+        <title className="flex items center">Núnka</title>
     </header>
 
     <header>
@@ -19,9 +20,12 @@ function HomePage() {
     </header>
 
  <main className="styles.main">
-    <a href="#">
+
+ 
+
+    <a href="viajes/viaje1">
     <img />
-    <h2>Machu Pichu</h2>
+    <h2>Roma</h2>
     <p>
     La zona arqueológica es accesible, bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón). Ninguna de las dos formas exime al visitante del precio de ingreso al complejo.
 
@@ -30,7 +34,7 @@ function HomePage() {
 
     <a href="#">
     <img />
-    <h2>Galapagos</h2>
+    <h2>Florencia</h2>
     <p>
     La zona arqueológica es accesible, bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón). Ninguna de las dos formas exime al visitante del precio de ingreso al complejo.
 
@@ -40,27 +44,35 @@ function HomePage() {
     
     <a href="#">
     <img />
-    <h2>Venezuela</h2>
+    <h2>Islas Galapagos</h2>
     <p>
     La zona arqueológica es accesible, bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón). Ninguna de las dos formas exime al visitante del precio de ingreso al complejo.
 
     </p>
     </a>
 
-
-
-
  </main>
-
-
 
    </div>
 
-  
 }
  
 
-export default HomePage 
+
+
+export async function getServerSideProps(){
+   const {viajes_categories} = await import('/data/data.json')
+   console.log(viajes_categories);
+
+    return {
+    props:{ 
+        data: viajes_categories , 
+       
+    },
+
+    };
+
+}
 
   
 

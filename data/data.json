@@ -1,0 +1,27 @@
+{
+ "viajes_categories":[
+ {
+ "id":"Roma",
+ "title":"travel to roma",
+ "description":"La zona arqueológica es accesible, bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón. Ninguna de las dos formas exime al visitante del precio de ingreso al complejo",
+ "image":"file:///D:/IZArc/Escritorio/Fotos/Viajes/UDLW7831.JPG"
+ },
+ {
+ "id":"florencia",
+ "title":"travel to florencia",
+ "description":"La zona arqueológica es accesible, bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón. Ninguna de las dos formas exime al visitante del precio de ingreso al complejo",
+ "image":"https://upload.wikimedia.org/wikipedia/commons/c/c0/Rome_Montage_2017.png"
+ },
+ 
+ {
+ "id":"islas galapagos",
+ "title":"travel to islas galapagos",
+ "description":"La zona arqueológica es accesible, bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón. Ninguna de las dos formas exime al visitante del precio de ingreso al complejo",
+ "image":"https://upload.wikimedia.org/wikipedia/commons/6/64/Lobo_marino_%28Zalophus_californianus_wollebaeki%29%2C_Punta_Pitt%2C_isla_de_San_Crist%C3%B3bal%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-24%2C_DD_11.JPG"
+ }
+
+
+ ]
+
+
+}
