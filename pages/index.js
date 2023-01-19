@@ -9,10 +9,11 @@ function HomePage() {
         <nav>
        <img />
        <a href="#">NúnKa</a>
-       <a href="/about">Nosotros</a>
-       <a href="/blog">Blog</a>
-       <a href="/fotos">fotos</a>
-       <a href="/contact">Contacto</a>
+       <a href="/nosotros">Nosotros</a>
+       <a href="/viajes">viajes</a>
+       <a href="/Imagenes">Imagenes</a>
+       <a href="/contacto">Contacto</a> 
+       
        
         </nav>
     </header>

@@ -1,4 +1,4 @@
-function About() {
+function nosotros() {
     return( <div>
    <h1>Nosotros</h1>
    <p>
@@ -13,4 +13,4 @@ function About() {
     );
 }
  
-export default About 
+export default nosotros
