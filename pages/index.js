@@ -1,7 +1,7 @@
 
 
 export default function HomePage() {
-   return  <div className="text-red-500 bg-blue-300">
+   return  <div className="text-red-500 bg-blue-300gi">
     <header>
         <title className="flex items center">Núnka</title>
     </header>
