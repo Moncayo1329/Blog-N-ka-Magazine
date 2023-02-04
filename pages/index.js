@@ -1,12 +1,13 @@
 
 
 export default function HomePage() {
-   return  <div>
+   return  <div className="text-red-500 bg-blue-300">
     <header>
         <title className="flex items center">Núnka</title>
     </header>
 
     <header>
+
         <nav>
        <img />
        <a href="#">NúnKa</a>
@@ -60,19 +61,9 @@ export default function HomePage() {
 
 
 
-export async function getServerSideProps(){
-   const {viajes_categories} = await import('/data/data.json')
-   console.log(viajes_categories);
 
-    return {
-    props:{ 
-        data: viajes_categories , 
-       
-    },
 
-    };
 
-}
 
   
 
