@@ -8,22 +8,23 @@ export default function HomePage() {
     </header>
   
 
-    <header>
-
-        <nav class="flex items-center justify-between flex-wrap bg-teal-900 p-6 ">
-        <div class="flex items-center flex-shrink-0 text-white mr-6 "> 
-        <span class="font-italic text-xl tracking-tight">
-      
-       <a href="#">NúnKa</a> </span>
+     <header>
+    <div>
+        <nav class="flex items-center justify-between flex-wrap bg-teal-900 p-6 "> 
+        <div class="flex items-center flex-shrink-0 text-black mr-6 "> 
+       <a href="#">NúnKa</a> 
        <a href="/nosotros">Nosotros</a>
        <a href="/viajes">viajes</a>
        <a href="/Imagenes">Imagenes</a>
+       
+
        </div>
-        </nav>
+       </nav>
         
         
-    </header>
+       </div>
     
+       </header>
    
 
     
@@ -54,11 +55,9 @@ export default function HomePage() {
 
     <div className="grid-element">
     <Image
-    
       src={img}
       Layout= "fill"
       alt= "Picture of florencia"
-      sizes="width: 10px "
      priority
       
     />

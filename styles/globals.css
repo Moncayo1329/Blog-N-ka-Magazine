@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities; 
 
+html,
+body {  
+
+    padding:0;
+    margin: 0;
+
+}
+
+a {  
+    color: beige;
+    text-decoration: none;
+
+}
+
+
+.grid-element { 
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+
+
+}
