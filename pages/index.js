@@ -1,5 +1,4 @@
 
-
 export default function HomePage() {
    return  <div>
     <header>
@@ -17,7 +16,6 @@ export default function HomePage() {
        <a href="/nosotros">Nosotros</a>
        <a href="/viajes">viajes</a>
        <a href="/Imagenes">Imagenes</a>
-       <a href="/contacto">Contacto</a> 
        </div>
         </nav>
         
@@ -41,6 +39,7 @@ export default function HomePage() {
     La zona arqueológica es accesible, bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón). Ninguna de las dos formas exime al visitante del precio de ingreso al complejo.
     </p>
 </a>
+
 
     <a href="#">
     <img />
