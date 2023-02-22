@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import img from "../public/public/images/Imagen1.jpg"
 
 export default function HomePage() {
    return  <div>
@@ -49,6 +51,18 @@ export default function HomePage() {
 
     </p>
     </a>
+
+    <div className="grid-element">
+    <Image
+    
+      src={img}
+      Layout= "fill"
+      alt= "Picture of florencia"
+      sizes="width: 10px "
+     priority
+      
+    />
+  </div>
 
     
     <a href="#">
