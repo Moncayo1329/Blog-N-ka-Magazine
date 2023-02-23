@@ -11,17 +11,20 @@ body {
 }
 
 a {  
-    color: beige;
-    text-decoration: none;
+    color: rgb(12, 12, 11);
+    
 
 }
 
 
 .grid-element { 
-    border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+    border: 1px solid #f0e8e8;
+  border-radius: 5px;
+  padding: 7px;
+  width: 300px;
+  position: relative;
+  left: 200px;
+
 
 
 }
