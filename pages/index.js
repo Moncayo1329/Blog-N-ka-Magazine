@@ -11,14 +11,14 @@ export default function HomePage() {
      <header>
     <div class="menu">
         <nav className="#"> 
-        <div class="letter-spacing: -100em flex  space-x-12 text-center">
         
-       <a href="#" className="text-zinc-900">NúnKa</a> 
-       
+       <div className="text-zinc-900 text-center space-x-3 font-1100"> 
+       <a href="#">NúnKa </a> 
+       <div class="space-x-3  text-center  absolute right-7 top-5 h-15 "> 
        <a href="/viajes">Viajes</a>
        <a href="/Imagenes">Fotografías</a>
        <a href="/nosotros">Nosotros</a>
-       
+       </div>
        
        </div>
        </nav>
