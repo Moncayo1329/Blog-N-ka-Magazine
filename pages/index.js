@@ -39,8 +39,8 @@ export default function HomePage() {
 
     <a href="viajes/viaje1">
     <img />
-    <h2 className="text-neutral-900 font-size:3.75rem  md:text-center inline-block:align-baseline">Roma</h2>
-    <p class="text-center">
+    <h2 className="text-neutral-900 font-size:3.75rem  md:text-center inline-block:align-baseline relative top-[120px] right-[350px]">Ecuador</h2>
+    <p class="text-center relative top-[120px] right-[350px]">
     La zona arqueológica es accesible <br></br> bien desde los caminos post-incaicos<br></br> que llegan hasta ella<br></br>o bien utilizando la carretera Hiram Bingham <br></br>que asciende la cuesta del cerro Machu Picchu.
     </p>
 </a>
@@ -49,12 +49,12 @@ export default function HomePage() {
     <a href="#">
     <img />
     <h2>Roma</h2>
-    <p>
-     bien desde los caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón). Ninguna de las dos formas exime al visitante del precio de ingreso al complejo.
+    <p class=" absolute top-[400px]  left-[800px]" >
+     bien desde los caminos post-incaicos que llegan hasta ella. <br></br>Ninguna de las dos formas exime al visitante del precio de ingreso al complejo.
 
     </p>
     </a>
-
+    
     <div className="grid-element">
     <Image
       src={img}
@@ -64,12 +64,13 @@ export default function HomePage() {
       
     />
   </div>
+  
 
     
     <a href="#">
     <img />
-    <h2>Florencia</h2>
-    <p>
+    <h2 className='relative top-[120px] right-[350px]'>Florencia</h2>
+    <p class="space-x-20 text-center absolute inset-x-0 top-[35px]  left-[550px] text-ls">
      caminos post-incaicos que llegan hasta ella, o bien utilizando la carretera Hiram Bingham (que asciende la cuesta del cerro Machu Picchu desde la antigua estación de tren de Puente Ruinas, ubicada al fondo del cañón). Ninguna de las dos formas exime al visitante del precio de ingreso al complejo.
      
      
