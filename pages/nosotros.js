@@ -6,8 +6,10 @@ import img from "../public/public/images/WEB.jpeg"
 
 
 function nosotros() {
-    return( <div>
-   <h1>Nosotros</h1>
+    return(<div>
+      <Link href="/nosotros">nosotros</Link>
+    
+
    <p class="About">
 
    Esta website fue creada por Michael Moncayo. Me gusta programar en mi tiempo libre. <br></br>
@@ -24,7 +26,7 @@ function nosotros() {
     />
   </div>
 
-    </div>
+</div>
     );
 }
  

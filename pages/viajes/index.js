@@ -1,11 +1,11 @@
 function viajes () {
     return <div>
   <h1>viajes </h1> 
-  <a href="/viajes/viaje1">
+  <link href="/viajes/viaje1">
     <img />
     <h2>Roma</h2>
     
-</a>
+</link>
     <a href="#">
     <img />
     <h2>Florencia</h2>

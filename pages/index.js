@@ -17,7 +17,7 @@ export default function HomePage() {
        <div class="space-x-20 text-center absolute inset-x-0 top-[35px]  left-[550px] text-ls"> 
        <a href="/viajes">Viajes</a>
        <a href="/Imagenes">Fotografías</a>
-       <a href="/nosotros">Nosotros</a>
+       <a href="../nosotros">Nosotros</a>
        </div>
        
        </div>
